@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Name"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editVariety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Olive Variety"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/checkBiological"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Biological Cultivation" />
+
+        <Button
+            android:id="@+id/btnAddPoint"
+            android:text="Add Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pointList"
+            android:text="Points: None"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnSaveGrove"
+            android:text="Save Grove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

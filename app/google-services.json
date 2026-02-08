@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "434069959016",
+    "project_id": "orgomanew",
+    "storage_bucket": "orgomanew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434069959016:android:1ea8c83ac8762012cea6dd",
+        "android_client_info": {
+          "package_name": "com.example.orgoma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434069959016-j9q70fjejpthtg8n398i8ha06qufmt6b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+		{
+          "client_id": "1050930706970-tasi4a4ke4p37h7cqt5h16nffaeh8j2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1a1hZ_zTVIOHInS6gmRLtB9Lm2mzyBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434069959016-j9q70fjejpthtg8n398i8ha06qufmt6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
